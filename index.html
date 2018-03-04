@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <title>Weather App</title>
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="js/weather.js"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <a class="button" href="index.html">Refresh</a>
+
+
+    <select id="timeSelector">
+				<option value="now">Now</option>
+				<option value="shortTerm">Short Term</option>
+				<option value="longTerm">Long Term (10 Day)</option>
+		</select>
+
+    <input type="text" id="inputLocation">
+    <button type="button" id="submitLocation">Search!</button>
+  </div>
+
+  <div id="weatherData">
+
+  </div>
+
+</body>
+
+</html>

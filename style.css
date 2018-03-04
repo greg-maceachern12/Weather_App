@@ -1,0 +1,15 @@
+body, html {
+  font-family: "Arial", sans-serif;
+}
+
+input, button, select {
+  height: 30px;
+}
+
+#weatherData {
+  text-align: center;
+}
+
+#city {
+  font-size: 50px;
+}
